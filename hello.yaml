@@ -12,3 +12,6 @@ spec:
           env:
             - name: TARGET
               value: "World"
+    metadata:
+      annotations:
+        autoscaling.knative.dev/minScale: "1"
