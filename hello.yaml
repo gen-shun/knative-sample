@@ -14,4 +14,4 @@ spec:
               value: "World"
     metadata:
       annotations:
-        autoscaling.knative.dev/minScale: "2"
+        autoscaling.knative.dev/minScale: "5"
